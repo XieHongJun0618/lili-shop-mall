@@ -1,0 +1,1 @@
+package com.lili.mall.service.goods.mapper;import com.baomidou.mybatisplus.core.mapper.BaseMapper;import com.lili.mall.api.goods.domain.Brand;/** * * @title BrandMapper * @description 商品品牌 mapper 层 * @author  xiehongjun * @date    15:22 2021/4/18 */public interface BrandMapper extends BaseMapper<Brand> {}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>lili-mall-service</artifactId>
+    <groupId>com.ll</groupId>
+    <version>1.0.0.L.RELESE</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>lili-goods-service</artifactId>
+  <description> 商品服务 持久化</description>
+
+  <dependencies>
+    <!-- lili-goods-api -->
+    <dependency>
+      <groupId>com.ll</groupId>
+      <artifactId>lili-goods-api</artifactId>
+      <version>${lili.mall.version}</version>
+    </dependency>
+  </dependencies>
+</project>
